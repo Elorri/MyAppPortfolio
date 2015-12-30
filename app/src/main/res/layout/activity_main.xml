@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="@dimen/mediumPadding"
+            android:paddingBottom="@dimen/smallPadding"
+            android:text="@string/my_nanodegree_apps"
+            android:textSize="@dimen/my_nanodegree_apps_textSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/menu_linearlayout_TopBottom_padding"
+            android:paddingTop="@dimen/menu_linearlayout_TopBottom_padding">
+
+            <Button
+                android:id="@+id/popularMovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/primary"
+                android:onClick="launchPopularMovie"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/popular_movies"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/superDuo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/primary"
+                android:onClick="launchSuperDuo"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/super_duo"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buildItBigger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/primary"
+                android:onClick="launchBuildItBigger"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/build_it_bigger"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/xyzReader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/primary"
+                android:onClick="launchXYZReader"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/xyz_reader"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/capstone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/accent"
+                android:onClick="launchCapstone"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/capstone"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="@dimen/mediumPadding"
+            android:paddingBottom="@dimen/smallPadding"
+            android:text="@string/my_own_apps"
+            android:textSize="@dimen/my_nanodegree_apps_textSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/menu_linearlayout_TopBottom_padding"
+            android:paddingTop="@dimen/menu_linearlayout_TopBottom_padding">
+
+            <Button
+                android:id="@+id/mealplanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/primary"
+                android:onClick="launchMealPlanner"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/mealplanner"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/openbeelab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/menu_button_top_bottom_margin"
+                android:layout_marginLeft="@dimen/menu_button_left_right_margin"
+                android:layout_marginRight="@dimen/menu_button_left_right_margin"
+                android:layout_marginTop="@dimen/menu_button_top_bottom_margin"
+                android:background="@color/primary"
+                android:onClick="launchOpenbeelab"
+                android:padding="@dimen/menu_button_padding"
+                android:text="@string/openbeelab"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

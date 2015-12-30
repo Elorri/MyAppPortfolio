@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menu_button_padding">16dp</dimen>
+    <dimen name="menu_button_top_bottom_margin">4dp</dimen>
+    <dimen name="menu_button_left_right_margin">48dp</dimen>
+    <dimen name="menu_linearlayout_TopBottom_padding">32dp</dimen>
+    <dimen name="my_nanodegree_apps_textSize">28sp</dimen>
+    <dimen name="smallPadding">16dp</dimen>
+    <dimen name="mediumPadding">32dp</dimen>
+</resources>
