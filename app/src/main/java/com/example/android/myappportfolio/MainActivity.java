@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends ActionBarActivity {
 
     private Toast mAppToast;
+    //Try sthg
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
